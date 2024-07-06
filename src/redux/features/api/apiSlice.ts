@@ -4,7 +4,7 @@ import { userLoggedIn } from '../auth/authSlice';
 export const apiSlice = createApi({
   reducerPath: 'api',
   baseQuery: fetchBaseQuery({
-    baseUrl: "https://api-web-g8tm.onrender.com/api/v1/",
+    baseUrl: "https://api-web-iqv2.onrender.com/api/v1/",
   }),
   endpoints: (builder) => ({
     loadUser: builder.query({
